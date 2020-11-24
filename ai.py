@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 def check_list_equals(list1,list2):
+    num1 = len(list1)
+    num2 = len(list2)
 
-    for i in range(len(list1)):
-        for j in range(len(list2)):
-            if list1[i] == list2[j]:
-                return True
-            else:
-                return False
+    if num1 == num2:
+        return True
+    return False
+
 def main():
 
-    A = [1,2,3]
+    A = [1,2,3,3]
     B = [1,2,3]
     res =0
     result = check_list_equals(A,B) 

@@ -1,12 +1,14 @@
 import numpy as np
-import requests
 
 
 def saying():
-  print("coming")
-
+#  with open("abc.txt") as f:
+#    data =  f.read()
+#    print(data)
+#
 
 if __name__ == "__main__":
-  pass
+    saying()
+   
 
 

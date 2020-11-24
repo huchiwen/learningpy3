@@ -11,7 +11,7 @@ def check_list_equals(list1,list2):
 
 def main():
 
-    A = [1,2,3,3]
+    A = [1,2,3]
     B = [1,2,3]
     res =0
 

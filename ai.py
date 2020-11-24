@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 def check_list_equals(list1,list2):
 
     for i in range(len(list1)):
@@ -19,10 +20,6 @@ def main():
       print(res)
     else:
       print("list not equal")
-
-
-
-
 
 
 if __name__ == "__main__":
